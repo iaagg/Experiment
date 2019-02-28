@@ -33,7 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3F192A36222726A100102AA7 /* Test URLs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test URLs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F192A36222726A100102AA7 /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F192A39222726A100102AA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F192A3B222726A100102AA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F192A3E222726A100102AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				3F192A942227B02500102AA7 /* People.framework */,
-				3F192A38222726A100102AA7 /* Test URLs */,
+				3F192A38222726A100102AA7 /* MainApp */,
 				3F192A37222726A100102AA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,12 +69,12 @@
 		3F192A37222726A100102AA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F192A36222726A100102AA7 /* Test URLs.app */,
+				3F192A36222726A100102AA7 /* MainApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F192A38222726A100102AA7 /* Test URLs */ = {
+		3F192A38222726A100102AA7 /* MainApp */ = {
 			isa = PBXGroup;
 			children = (
 				3F192A39222726A100102AA7 /* AppDelegate.swift */,
@@ -86,15 +86,15 @@
 				3F192A6822272DDC00102AA7 /* Storage.swift */,
 				3F192A6A2227316200102AA7 /* PeopleURLProtocol.swift */,
 			);
-			path = "Test URLs";
+			path = MainApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F192A35222726A100102AA7 /* Test URLs */ = {
+		3F192A35222726A100102AA7 /* MainApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F192A48222726A200102AA7 /* Build configuration list for PBXNativeTarget "Test URLs" */;
+			buildConfigurationList = 3F192A48222726A200102AA7 /* Build configuration list for PBXNativeTarget "MainApp" */;
 			buildPhases = (
 				3F192A32222726A100102AA7 /* Sources */,
 				3F192A33222726A100102AA7 /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = "Test URLs";
+			name = MainApp;
 			productName = "Test URLs";
-			productReference = 3F192A36222726A100102AA7 /* Test URLs.app */;
+			productReference = 3F192A36222726A100102AA7 /* MainApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F192A31222726A100102AA7 /* Build configuration list for PBXProject "Test URLs" */;
+			buildConfigurationList = 3F192A31222726A100102AA7 /* Build configuration list for PBXProject "MainApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F192A35222726A100102AA7 /* Test URLs */,
+				3F192A35222726A100102AA7 /* MainApp */,
 			);
 		};
 /* End PBXProject section */
@@ -312,12 +312,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQZRQ952CE;
-				INFOPLIST_FILE = "Test URLs/Info.plist";
+				INFOPLIST_FILE = MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AG.Test-URLs";
+				PRODUCT_BUNDLE_IDENTIFIER = AG.MainApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,12 +330,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQZRQ952CE;
-				INFOPLIST_FILE = "Test URLs/Info.plist";
+				INFOPLIST_FILE = MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AG.Test-URLs";
+				PRODUCT_BUNDLE_IDENTIFIER = AG.MainApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F192A31222726A100102AA7 /* Build configuration list for PBXProject "Test URLs" */ = {
+		3F192A31222726A100102AA7 /* Build configuration list for PBXProject "MainApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F192A46222726A200102AA7 /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F192A48222726A200102AA7 /* Build configuration list for PBXNativeTarget "Test URLs" */ = {
+		3F192A48222726A200102AA7 /* Build configuration list for PBXNativeTarget "MainApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F192A49222726A200102AA7 /* Debug */,
